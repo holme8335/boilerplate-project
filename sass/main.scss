@@ -1,6 +1,8 @@
-@import 'abstracts/variables';
 
-@import 'base/_bass.scss';
+
+@import 'base/_common.scss';
+@import 'base/_colors.scss';
+@import 'base/_image.scss';
 
 @import 'layout/header';
 @import 'layout/forms';
