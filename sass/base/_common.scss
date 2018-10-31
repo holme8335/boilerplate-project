@@ -1,7 +1,16 @@
 
 /********* Common Classes ***********/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+  margin: 0;
+  font: Raleway;
+}
+
 .over-menu-div {
-  width: 353px; }
+  width: 353px;
+  display: none;
+}
 
 .container-div {
   vertical-align: middle;
@@ -74,6 +83,7 @@
 
 input:focus {
   outline: 0; }
+
 
 /********* First Panel Classes ***********/
 .email-status {

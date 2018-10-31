@@ -1,0 +1,30 @@
+/********* Header Classes ***********/
+
+.header-div {
+    background-color: $menu-bckgnd-color;
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 36px;
+    color: $header-txt-color;
+    vertical-align: baseline;
+    padding-bottom: 5px;
+  }
+
+  .header-item-span {
+      padding-left: 7px;
+      padding-bottom: 3px;
+  }
+
+.header-div:hover .header-item-span{
+    border-bottom: 1.5px solid $clariti-light-blue;
+    cursor: pointer; 
+}
+
+.profile-div {
+    font: 21px/1.1 Raleway;
+    line-height: 28px; 
+    width: 237px;
+    text-align: center;
+    margin-top: 9px;
+}

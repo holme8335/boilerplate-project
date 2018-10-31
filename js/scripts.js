@@ -1,6 +1,6 @@
 
 
-document.getElementById('cat-first').onclick = function() {
+document.getElementById('header-profile-div').onclick = function() {
     var div = document.getElementById('drop-arrow');
         div.classList.toggle("js-rotated-180");
 };

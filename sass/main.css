@@ -1,7 +1,14 @@
 /********* SCSS Variables **********/
 /********* Common Classes ***********/
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+body {
+  margin: 0;
+  font: Raleway;
+}
+
 .over-menu-div {
   width: 353px;
+  display: none;
 }
 
 .container-div {
@@ -211,5 +218,35 @@ input:focus {
   width: 15px;
   background-image: url("https://staging4.clariti.app/wp-content/uploads/2018/10/mini-arrow-back-darkblue-up.png");
   background-size: 15px 15px;
+}
+
+/********* Header Classes ***********/
+.header-div {
+  background-color: #2b3c4c;
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 36px;
+  color: #fff;
+  vertical-align: baseline;
+  padding-bottom: 5px;
+}
+
+.header-item-span {
+  padding-left: 7px;
+  padding-bottom: 3px;
+}
+
+.header-div:hover .header-item-span {
+  border-bottom: 1.5px solid #30b4f4;
+  cursor: pointer;
+}
+
+.profile-div {
+  font: 21px/1.1 Raleway;
+  line-height: 28px;
+  width: 237px;
+  text-align: center;
+  margin-top: 9px;
 }
 /*# sourceMappingURL=main.css.map */
