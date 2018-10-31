@@ -1,42 +1,172 @@
-/*
-Error: Invalid CSS after "...d-color:#2b3c4c": expected "{", was ";"
-        on line 6 of C:\Users\Andrew\Documents\GitHub\boilerplate-project\sass\styles.scss
+/********* SCSS Variables **********/
+/********* Common Classes ***********/
+.over-menu-div {
+  width: 353px; }
 
-1: /********* SCSS Variables **********\/
-2: 
-3: $valid-txt-color: #36dc86;
-4: $error-txt-color: red;
-5: <<<<<<< HEAD:sass/styles.scss
-6: $menu-bckgnd-color:#2b3c4c;
-7: =======
-8: $menu-bckgnd-color: #2b3c4c;
-9: >>>>>>> e40939fdcaa6fc1e08e1ff542bda5c24a88702f9:css/styles.scss
-10: $menu-txt-color: #cad1d7;
-11: $menu-border-color: #556573;
+.container-div {
+  vertical-align: middle;
+  padding: 0.1%;
+  padding-right: 4%;
+  transition: .2s;
+  background-color: #2b3c4c;
+  max-width: 350px;
+  min-width: 200px;
+  min-height: 20px;
+  max-height: 80px;
+  color: #cad1d7;
+  border: 1px solid #556573; }
 
-Backtrace:
-C:\Users\Andrew\Documents\GitHub\boilerplate-project\sass\styles.scss:6
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-C:/Program Files (x86)/Koala/bin/sass:22:in `load'
-C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...d-color:#2b3c4c\": expected \"{\", was \";\"\A         on line 6 of C:\Users\Andrew\Documents\GitHub\boilerplate-project\sass\styles.scss\A \A 1: /********* SCSS Variables **********/\A 2: \A 3: $valid-txt-color: #36dc86;\A 4: $error-txt-color: red;\A 5: <<<<<<< HEAD:sass/styles.scss\A 6: $menu-bckgnd-color:#2b3c4c;\A 7: =======\A 8: $menu-bckgnd-color: #2b3c4c;\A 9: >>>>>>> e40939fdcaa6fc1e08e1ff542bda5c24a88702f9:css/styles.scss\A 10: $menu-txt-color: #cad1d7;\A 11: $menu-border-color: #556573;"; }
+.container-div:hover {
+  transition: .1s;
+  background-color: #dedede;
+  color: #fff; }
+
+.icon-div {
+  vertical-align: middle;
+  display: inline-block;
+  margin: .75%;
+  margin-right: 2%;
+  margin-left: 2%;
+  background-repeat: no-repeat;
+  background-position: right top; }
+
+.cat-img {
+  height: 15px;
+  width: 15px;
+  background: url("https://staging4.clariti.app/wp-content/uploads/2018/09/github.png");
+  background-size: 15px 15px; }
+
+.arrow-img {
+  transition: .6s;
+  height: 15px;
+  width: 15px;
+  background-image: url("https://staging4.clariti.app/wp-content/uploads/2018/10/mini-arrow-back-darkblue-up.png");
+  background-size: 15px 15px; }
+
+.txt-div {
+  vertical-align: center;
+  padding-top: .5%;
+  display: inline-block;
+  min-height: 15px;
+  max-height: 30px; }
+
+.js-rotated-180 {
+  transform: rotate(180deg);
+  transition: .6s; }
+
+.js-rotated-270 {
+  transform: rotate(270deg);
+  transition: .6s; }
+
+.js-rotated-90 {
+  transform: rotate(90deg);
+  transition: .6s; }
+
+.right {
+  top: 2.5%;
+  float: right;
+  position: sticky; }
+
+.input-div {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3.5%; }
+
+.sub-menu {
+  padding-left: 10%; }
+
+.txt-input-style {
+  background-color: #2b3c4c;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1.5px solid #fff;
+  color: #fff;
+  width: 90%;
+  text-align: center; }
+
+input:focus {
+  outline: 0; }
+
+/********* First Panel Classes ***********/
+.email-status {
+  display: inline-block;
+  vertical-align: middle;
+  width: 75px;
+  text-align: center; }
+
+.active-email:after {
+  content: "Active";
+  color: #36dc86; }
+
+.public-email:after {
+  content: "Public";
+  color: #36dc86; }
+
+.container-div:hover .rotated-180 {
+  transform: rotate(0);
+  transition: .6s; }
+
+.container-div:hover .active-email:after {
+  content: "Inactive";
+  color: red; }
+
+.container-div:hover .public-email:after {
+  content: "Not Public";
+  color: red; }
+
+/********* Second Panel ***********/
+.sync-txt:after {
+  content: "This Git Cat is currently synched"; }
+
+.out-sync-txt:after {
+  content: "This Git Cat is not synched"; }
+
+/********* Third Panel ***********/
+.form-div {
+  padding-right: .1%; }
+
+.form-div:hover {
+  background-color: #2b3c4c; }
+
+.input-txt {
+  width: 100%;
+  text-align: center;
+  height: 35%; }
+
+/********* Fourth Panel ***********/
+.hov-display {
+  display: none; }
+
+.container-div:hover .hov-display {
+  display: block; }
+
+/********* Fifth Panel ***********/
+.form-div {
+  width: 100%; }
+
+.email-form {
+  display: inline-block;
+  width: 90%; }
+
+.form-padding {
+  text-align: center;
+  padding: 3%; }
+
+.input-name {
+  display: inline-block;
+  width: 25%; }
+
+.form-hov:hover {
+  background-color: #2b3c4c; }
+
+.form-bttn {
+  border-radius: 5px; }
+
+.form-field {
+  width: 60%;
+  vertical-align: bottom; }
+
+/*# sourceMappingURL=styles.css.map */
+
+/*# sourceMappingURL=styles.css.map */

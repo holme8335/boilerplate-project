@@ -36,22 +36,6 @@
   background-position: right top;
 }
 
-.cat-img {
-  height: 15px;
-  width: 15px;
-  background: url("https://staging4.clariti.app/wp-content/uploads/2018/09/github.png");
-  background-size: 15px 15px;
-}
-
-.arrow-img {
-  -webkit-transition: .6s;
-  transition: .6s;
-  height: 15px;
-  width: 15px;
-  background-image: url("https://staging4.clariti.app/wp-content/uploads/2018/10/mini-arrow-back-darkblue-up.png");
-  background-size: 15px 15px;
-}
-
 .txt-div {
   vertical-align: center;
   padding-top: .5%;
@@ -213,4 +197,20 @@ input:focus {
   width: 60%;
   vertical-align: bottom;
 }
-/*# sourceMappingURL=styles.css.map */
+/********* SCSS Variables **********/
+.cat-img {
+  height: 15px;
+  width: 15px;
+  background: url("https://staging4.clariti.app/wp-content/uploads/2018/09/github.png");
+  background-size: 15px 15px;
+}
+
+.arrow-img {
+  -webkit-transition: .6s;
+  transition: .6s;
+  height: 15px;
+  width: 15px;
+  background-image: url("https://staging4.clariti.app/wp-content/uploads/2018/10/mini-arrow-back-darkblue-up.png");
+  background-size: 15px 15px;
+}
+/*# sourceMappingURL=main.css.map */
