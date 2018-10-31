@@ -1,14 +1,4 @@
 /********* SCSS Variables **********/
-
-$valid-txt-color: #36dc86;
-$error-txt-color: red;
-$menu-bckgnd-color:#2b3c4c;
-$menu-txt-color: #cad1d7;
-$menu-border-color: #556573;
-$menu-bckgnd-hov-color: #dedede;
-$menu-txt-hov-color: #fff;
-$menu-input-color: #fff;
-
 /********* Common Classes ***********/
 .over-menu-div {
   width: 353px; }
@@ -18,18 +8,18 @@ $menu-input-color: #fff;
   padding: 0.1%;
   padding-right: 4%;
   transition: .2s;
-  background-color: $menu-bckgnd-color;
+  background-color: #2b3c4c;
   max-width: 350px;
   min-width: 200px;
   min-height: 20px;
   max-height: 80px;
-  color: $menu-txt-color;
-  border: 1px solid $menu-border-color; }
+  color: #cad1d7;
+  border: 1px solid #556573; }
 
 .container-div:hover {
   transition: .1s;
-  background-color: $menu-bckgnd-hov-color;
-  color: $menu-txt-hov-color; }
+  background-color: #dedede;
+  color: #fff; }
 
 .icon-div {
   vertical-align: middle;
@@ -73,12 +63,12 @@ $menu-input-color: #fff;
   padding-left: 10%; }
 
 .txt-input-style {
-  background-color: $menu-bckgnd-color;
+  background-color: #2b3c4c;
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 1.5px solid $menu-input-color;
-  color: $menu-input-color;
+  border-bottom: 1.5px solid #fff;
+  color: #fff;
   width: 90%;
   text-align: center; }
 
@@ -94,11 +84,11 @@ input:focus {
 
 .active-email:after {
   content: "Active";
-  color: $valid-txt-color; }
+  color: #36dc86; }
 
 .public-email:after {
   content: "Public";
-  color: $valid-txt-color; }
+  color: #36dc86; }
 
 .container-div:hover .rotated-180 {
   transform: rotate(0);
@@ -106,11 +96,11 @@ input:focus {
 
 .container-div:hover .active-email:after {
   content: "Inactive";
-  color: $error-txt-color; }
+  color: red; }
 
 .container-div:hover .public-email:after {
   content: "Not Public";
-  color: $error-txt-color; }
+  color: red; }
 
 /********* Second Panel ***********/
 .sync-txt:after {
@@ -124,7 +114,7 @@ input:focus {
   padding-right: .1%; }
 
 .form-div:hover {
-  background-color: $menu-bckgnd-color; }
+  background-color: #2b3c4c; }
 
 .input-txt {
   width: 100%;
@@ -155,7 +145,7 @@ input:focus {
   width: 25%; }
 
 .form-hov:hover {
-  background-color: $menu-bckgnd-color; }
+  background-color: #2b3c4c; }
 
 .form-bttn {
   border-radius: 5px; }
@@ -165,3 +155,18 @@ input:focus {
   vertical-align: bottom; }
 
 /*# sourceMappingURL=styles.css.map */
+/********* SCSS Variables **********/
+.cat-img {
+  height: 15px;
+  width: 15px;
+  background: url("https://staging4.clariti.app/wp-content/uploads/2018/09/github.png");
+  background-size: 15px 15px; }
+
+.arrow-img {
+  transition: .6s;
+  height: 15px;
+  width: 15px;
+  background-image: url("https://staging4.clariti.app/wp-content/uploads/2018/10/mini-arrow-back-darkblue-up.png");
+  background-size: 15px 15px; }
+
+/*# sourceMappingURL=main.css.map */
