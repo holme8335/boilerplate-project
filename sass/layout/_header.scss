@@ -9,6 +9,7 @@
     color: $header-txt-color;
     vertical-align: baseline;
     padding-bottom: 5px;
+    letter-spacing: 1px;
   }
 
   .header-item-span {
@@ -22,9 +23,15 @@
 }
 
 .profile-div {
-    font: 21px/1.1 Raleway;
+    font: 21px/1.1 $default-font;
     line-height: 28px; 
     width: 237px;
     text-align: center;
     margin-top: 9px;
+    display: inline-block;
+}
+
+.header-item-div {
+    font: 12px $default-font;
+    display: inline;
 }

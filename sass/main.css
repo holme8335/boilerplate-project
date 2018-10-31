@@ -37,8 +37,8 @@ body {
   vertical-align: middle;
   display: inline-block;
   margin: .75%;
-  margin-right: 2%;
-  margin-left: 2%;
+  /*margin-right: 2%;
+  margin-left: 2%; */
   background-repeat: no-repeat;
   background-position: right top;
 }
@@ -230,6 +230,7 @@ input:focus {
   color: #fff;
   vertical-align: baseline;
   padding-bottom: 5px;
+  letter-spacing: 1px;
 }
 
 .header-item-span {
@@ -248,5 +249,11 @@ input:focus {
   width: 237px;
   text-align: center;
   margin-top: 9px;
+  display: inline-block;
+}
+
+.header-item-div {
+  font: 12px Raleway;
+  display: inline;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,6 +1,10 @@
 
+
 /********* Common Classes ***********/
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+
+$default-font: Raleway;
+
 
 body {
   margin: 0;
@@ -34,8 +38,8 @@ body {
   vertical-align: middle;
   display: inline-block;
   margin: .75%;
-  margin-right: 2%;
-  margin-left: 2%;
+  /*margin-right: 2%;
+  margin-left: 2%; */
   background-repeat: no-repeat;
   background-position: right top; }
 
