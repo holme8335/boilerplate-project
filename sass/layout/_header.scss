@@ -13,25 +13,35 @@
   }
 
   .header-item-span {
+      vertical-align: middle;
       padding-left: 7px;
-      padding-bottom: 3px;
+      padding-bottom: .2%;
   }
 
-.header-div:hover .header-item-span{
+.header-menu-item:hover  .header-item-span{
     border-bottom: 1.5px solid $clariti-light-blue;
     cursor: pointer; 
 }
 
 .profile-div {
     font: 21px/1.1 $default-font;
-    line-height: 28px; 
+    line-height: 27.5px; 
     width: 237px;
     text-align: center;
     margin-top: 9px;
     display: inline-block;
 }
 
+.profile-menu-div {
+    margin-left: 7.5%;
+    margin-top: 1%;
+}
+
 .header-item-div {
     font: 12px $default-font;
     display: inline;
+}
+
+.header-arrow-space {
+    margin: .25%;
 }

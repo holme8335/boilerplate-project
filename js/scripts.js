@@ -1,8 +1,10 @@
 
 
 document.getElementById('header-profile-div').onclick = function() {
-    var div = document.getElementById('drop-arrow');
-        div.classList.toggle("js-rotated-180");
+    var arrow = document.getElementById('drop-arrow');
+    var showDiv = document.getElementById('profile-container');
+        arrow.classList.toggle("js-rotated-180");
+        showDiv.classList.toggle("hide");
 };
 
 document.getElementById('sub-menu').onclick = function() {
