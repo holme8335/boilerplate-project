@@ -271,4 +271,13 @@ input:focus {
 .header-arrow-space {
   margin: .25%;
 }
+
+.img-offset {
+  margin-left: 15%;
+}
+
+.profile-form {
+  width: 90%;
+  float: left;
+}
 /*# sourceMappingURL=main.css.map */
