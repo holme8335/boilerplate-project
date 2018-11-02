@@ -245,6 +245,16 @@ input:focus {
   padding-bottom: .2%;
 }
 
+.menu-div {
+  position: absolute;
+  z-index: 1;
+}
+
+.header-menu-item {
+  position: relative;
+  display: inline-block;
+}
+
 .header-menu-item:hover .header-item-span {
   border-bottom: 1.5px solid #30b4f4;
   cursor: pointer;
@@ -275,6 +285,10 @@ input:focus {
 
 .img-offset {
   margin-left: 15%;
+}
+
+.email-menu-div {
+  left: 0%;
 }
 
 .profile-form {

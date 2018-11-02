@@ -18,6 +18,16 @@
       padding-bottom: .2%;
   }
 
+  .menu-div {
+    position: absolute;
+    z-index: 1;
+  }
+
+  .header-menu-item {
+    position: relative;
+    display: inline-block;
+  }
+
 .header-menu-item:hover  .header-item-span{
     border-bottom: 1.5px solid $clariti-light-blue;
     cursor: pointer; 
@@ -48,6 +58,10 @@
 
 .img-offset {
     margin-left: 15%;
+}
+
+.email-menu-div {
+    left: 0%;
 }
 
 .profile-form {
