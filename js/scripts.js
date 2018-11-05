@@ -1,6 +1,6 @@
 
 
-document.getElementById('header-profile-div').onclick = function() {
+function profileClick() {
     var arrow = document.getElementById('profile-arrow');
     var showDiv = document.getElementById('profile-container');
         arrow.classList.toggle("js-rotated-180");

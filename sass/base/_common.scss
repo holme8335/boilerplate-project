@@ -21,14 +21,14 @@ body {
 }
 
 .container-div {
+  font: 12px $default-font;
   display: table;
   vertical-align: middle;
   padding: 0.1%;
   padding-right: 4%;
   transition: .2s;
   background-color: $menu-bckgnd-color;
-  max-width: 350px;
-  min-width: 200px;
+  width: 100%;
   min-height: 20px;
   max-height: 80px;
   color: $menu-txt-color;
@@ -68,7 +68,7 @@ body {
   transition: .6s; }
 
 .right {
-  top: 2.5%;
+  top: 6.5%;
   float: right;
   position: sticky; }
 
